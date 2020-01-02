@@ -9,8 +9,10 @@ public class Principal {
 		lutador[1] = new Lutador("Cara de Osasco", "Brasileiro", 21, 1.68, 70, 2, 1, 0) ;
 		
 		
-		
-		lutador[0].status();
+		Figth UUC1 = new Figth();
+		UUC1.marcarLuta(lutador[0], lutador[1]);
+		UUC1.lutar();
+	
 		
 	}
 
